@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_location">Clear</string>
+    <string name="save_location">Save Location</string>
+    <string name="current_loc">Your Current Location is: </string>
+    <string name="app_name">Drunk Me Home</string>
+</resources>

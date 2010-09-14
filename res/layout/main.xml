@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/current_loc"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/current_loc"
+    />    
+<TextView
+	android:id="@+id/location_text"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/current_loc"
+	/>    
+<Button
+	android:id="@+id/save_location"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_below="@id/location_text"
+    android:visibility="gone"
+    android:text="@string/save_location"
+	/>
+<TextView  
+	android:id="@+id/address_text"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/save_location"
+    android:visibility="gone"
+    android:textSize="36sp"
+    />	
+<Button
+	android:id="@+id/clear_location"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_below="@id/address_text"
+    android:visibility="gone"
+    android:text="@string/clear_location"
+	/>
+</RelativeLayout>

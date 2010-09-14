@@ -1,0 +1,7 @@
+# ignore the bin folder
+bin
+# ignore the generated files folder
+gen
+# ignore eclipse files
+.classpath
+.project
